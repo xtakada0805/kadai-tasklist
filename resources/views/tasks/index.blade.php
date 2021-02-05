@@ -23,4 +23,6 @@
             </tbody>
         </table>
     @endif
+    <!--ページネーション-->
+    {{ $tasks->links() }}
 @endsection
